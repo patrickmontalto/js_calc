@@ -1,10 +1,11 @@
 .calc-body {
+	font-family: Helvetica;
 	width: 250px;
-	height: 600px;
 	margin: auto;
 	border-radius: 10px;
 	background-color: rgb(183, 183, 183);
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .calc-display {
@@ -25,11 +26,60 @@
 	background-color: rgb(212, 212, 212);
 	text-align: center;
 	border-radius: 10%;
-	margin: 10px;
+	margin: 5px;
 	border: 1px solid black;
+	display: inline-block;
+}
+
+.equals {
+	padding-top: 60px;
+	float: right;
+	border-radius: 5px;
+}
+
+.zero {
+	padding-right: 67px;
+	border-radius: 5px;
 }
 
 .button:hover {
 	background: #fff;
 	color: #648880;
 }
+
+/* row positioning: button layout */
+
+
+.row {
+	height: 50px;
+	margin: auto;
+	width: 222px;
+}
+
+.row-0 {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
