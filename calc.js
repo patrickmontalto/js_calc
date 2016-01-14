@@ -1,22 +1,3 @@
-// Core arithmetic functions
-
-var add = function(x, y) {
-	return (x + y);
-}
-
-var multiply = function(x, y) {
-	return (x * y);
-}
-
-var divide = function(x, y) {
-	return (x / y);
-}
-
-var subtract = function(x, y) {
-	return ( x - y);
-
-}
-
 // Event listeners for number buttons (0-9):
 $(document).ready(function() {
 
@@ -50,9 +31,6 @@ $(document).ready(function() {
 			eq += operand + value
 			// reset operand:
 			reset_operand();
-
-		  console.log(value);
-		  console.log(eq);
 		} else if ( $( this ).hasClass( "c")) {
 			$(".display-value").fadeIn(100).fadeOut(100).fadeIn(100);
 			$(".display-value").html(0);
