@@ -3,52 +3,67 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="core.css">
-	<script type="text/javascript" src="core.css"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="calc.js"></script>
 </head>
 <body>
-	<div class="calc-body">
-		<div class="calc-display">122</div>
+	<div class="container">
+		<div class="calc-body">
+			<div class="app-controls">
+				<div class="close"></div>
+				<div class="minimize"></div>
+				<div class="maximize"></div>
+			</div>
+			<div class="app-name">Calculator</div>
+			<div class="calc-display">
+				<div class="display-value">0</div>
+			</div>
 
-		<div class="row row-0">
-		<div class="button fn mc">MC</div>
-		<div class="button fn m-plus">M+</div>
-		<div class="button fn m-minus">M-</div>
-		<div class="button fn mr">MR</div>
+			<div class="row row-0">
+			<div class="button fn mc">MC</div>
+			<div class="button fn m-plus">M+</div>
+			<div class="button fn m-minus">M-</div>
+			<div class="button fn mr">MR</div>
+			</div>
+
+			<div class="row row-1">
+				<div class="button fn c">C</div>
+				<div class="button fn plus-minus">+/-</div>
+				<div class="button fn divide">/</div>
+				<div class="button fn multiply">x</div>
+			</div>
+
+			<div class="row row-2">
+				<div class="button num seven">7</div>
+				<div class="button num eight">8</div>
+				<div class="button num nine">9</div>
+				<div class="button fn minus">-</div>
+			</div>
+
+			<div class="row row-3">
+				<div class="button num four">4</div>
+				<div class="button num five">5</div>
+				<div class="button num six">6</div>
+				<div class="button fn plus">+</div>
+			</div>
+
+			<div class="row row-4">
+				<div class="button num one">1</div>
+				<div class="button num two">2</div>
+				<div class="button num three">3</div>
+				<div class="button fn equals">=</div>
+			</div>
+
+			<div class="row row-5">
+				<div class="button num zero">0</div>
+				<div class="button num dot">.</div>
+			</div>
+			
 		</div>
 
-		<div class="row row-1">
-			<div class="button fn c">C</div>
-			<div class="button fn plus-minus">+/-</div>
-			<div class="button fn divide">./.</div>
-			<div class="button fn multiply">X</div>
+		<div class="footer">
+			<div class="info">OS X Panther JavaScript Calculator | Created by <a href="http://www.github.com/patrickmontalto">Patrick Montalto</a></div>
 		</div>
-
-		<div class="row row-2">
-			<div class="button num seven">7</div>
-			<div class="button num eight">8</div>
-			<div class="button num nine">9</div>
-			<div class="button fn minus">-</div>
-		</div>
-
-		<div class="row row-3">
-			<div class="button num four">4</div>
-			<div class="button num five">5</div>
-			<div class="button num six">6</div>
-			<div class="button fn plus">+</div>
-		</div>
-
-		<div class="row row-4">
-			<div class="button num one">1</div>
-			<div class="button num two">2</div>
-			<div class="button num three">3</div>
-			<div class="button fn equals">=</div>
-		</div>
-
-		<div class="row row-5">
-			<div class="button num zero">0</div>
-			<div class="button num dot">.</div>
-		</div>
-		
 	</div>
 </body>
 </html>

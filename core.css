@@ -1,11 +1,66 @@
+body {
+	margin-top: 50px;
+}
+.container {
+	width: 60%;
+	margin: auto;
+}
 .calc-body {
 	font-family: Helvetica;
 	width: 250px;
 	margin: auto;
 	border-radius: 10px;
-	background-color: rgb(183, 183, 183);
-	padding-top: 20px;
+	/* background-color: rgb(183, 183, 183); */
+	background-image: url("thin_aluminum.png");
+	padding-top: 8px;
 	padding-bottom: 20px;
+	-webkit-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 25px -2px rgba(0,0,0,0.75);
+}
+.app-controls {
+	float: left;
+	margin-left: 10px;
+}
+.close {
+  background: #ff5c5c;
+  font-size: 9pt;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e33e41;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.minimize {
+  background: #ffbd4c;
+  font-size: 9pt;
+  line-height: 11px;
+  margin-left: 4px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e09e3e;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.maximize {
+  background: #00ca56;
+  font-size: 9pt;
+  line-height: 11px;
+  margin-left: 6px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #14ae46;
+  border-radius: 50%;
+  display: inline-block;
+}
+.app-name {
+	padding-bottom: 5px;
+	font-size: 14px;
+	margin: auto;
+	width: 30%;
+	text-align: center;
 }
 
 .calc-display {
@@ -29,6 +84,10 @@
 	margin: 5px;
 	border: 1px solid black;
 	display: inline-block;
+	box-shadow: 
+  0 1px 2px #fff, /*bottom external highlight*/
+  inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
+  inset 0 3px 3px rgba(255,255,255,0.8); /*top internal highlight*/
 }
 
 .equals {
@@ -60,9 +119,13 @@
 	margin-top: 10px;
 }
 
+.footer {
+	margin-top: 50px;
+}
 
-
-
+.info {
+	float: right;
+}
 
 
 
